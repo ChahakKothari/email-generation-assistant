@@ -1,0 +1,21 @@
+Scenario,Intent,Tone,Generated_Email,Metric1_Fact_Recall,Metric2_Tone_Score,Metric3_Format_Score,Average_Score,Model
+1,Follow up after job interview,Formal,Subject: Follow-Up – Software Engineer Interview,0.67,0.8,0.33,0.6,Model_A_FewShot
+2,Request deadline extension,Polite,Subject: Request for Brief Deadline Extension for Project Submission,0.33,0.9,0.33,0.52,Model_A_FewShot
+3,Thank you after business meeting,Warm and professional,Subject: Thank you for Our Productive Meeting,0.33,0.9,0.67,0.63,Model_A_FewShot
+4,Complaint about delayed delivery,Firm but polite,Subject: Urgent: Delayed Delivery of Order #12345,0.67,0.8,0.33,0.6,Model_A_FewShot
+5,Request for project proposal,Formal,Subject: Proposal for TechCorp Project - Request for Project Details,0.33,0.8,0.33,0.49,Model_A_FewShot
+6,Apology for missing meeting,Apologetic,Subject: Apology and Rescheduling of Yesterday's Meeting,0.33,0.9,0.33,0.52,Model_A_FewShot
+7,Salary increment request,Confident and respectful,Subject: Request for Salary Increment Review,0.33,0.8,0.33,0.49,Model_A_FewShot
+8,Welcome new team member,Friendly and warm,"Subject: Welcome to the Team, Priya!",0.33,0.8,0.33,0.49,Model_A_FewShot
+9,Request for feedback on project,Professional,Subject: Request for Feedback - Project Submission for ABC Corp,1.0,0.9,0.33,0.74,Model_A_FewShot
+10,Invitation to company event,Formal and exciting,Subject: You're Invited: Annual Dinner at Hotel Taj,0.67,0.8,0.33,0.6,Model_A_FewShot
+1,,,,1.0,0.9,1.0,0.97,Model_B_ZeroShot
+2,,,,0.67,0.8,0.33,0.6,Model_B_ZeroShot
+3,,,,1.0,0.9,1.0,0.97,Model_B_ZeroShot
+4,,,,0.67,0.8,0.33,0.6,Model_B_ZeroShot
+5,,,,0.33,0.9,0.33,0.52,Model_B_ZeroShot
+6,,,,0.67,0.9,0.33,0.63,Model_B_ZeroShot
+7,,,,0.33,0.8,0.33,0.49,Model_B_ZeroShot
+8,,,,0.33,0.9,0.33,0.52,Model_B_ZeroShot
+9,,,,0.67,0.9,0.33,0.63,Model_B_ZeroShot
+10,,,,0.67,0.9,0.33,0.63,Model_B_ZeroShot
